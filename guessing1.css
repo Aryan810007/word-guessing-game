@@ -1,0 +1,52 @@
+body {
+    background-image:url(image\ copy.png);
+    background-size: cover;
+    /* background: #1E1E1E; */
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1{
+    color: #00EFFF;
+    font-size: 40px;
+
+}
+p{
+    color: #E0FFFF;
+}
+
+.game-box {
+    margin-top: 200px;
+}
+
+.word {
+    font-size: 32px;
+    letter-spacing: 12px;
+    margin: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+button:hover{
+    background-color: #4DFFB3;
+    border-radius: 7px;
+}
+
+.restart-btn {
+    background-color: #00EFFF;
+    border: 2px ;
+    border-radius: 10px;
+    color: black;
+}

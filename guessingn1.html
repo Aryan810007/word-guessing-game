@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guessing Game ( made by Aryan singh Tomar )</title>
+    <link rel="stylesheet" href="guessing1.css">
+    <script src="guessing1.js"></script>
+</head>
+<body>
+    <div class="game-box">
+
+
+        <!-- header -->
+        <h1>Word Guessing Game( Mini-project )</h1>
+        <p style="font-size: 25px;" id="hint"></p>
+
+        <!-- main -->
+
+        <div id="wordDisplay" class="word"></div>
+
+        <input style="border-radius: 10px; border: 2px solid white;" type="text" id="letterInput" maxlength="1" placeholder="Enter a letter">
+        <button style="border-radius: 10px; border: 2px solid white;" onclick="checkLetter()">Guess :)</button>
+
+        <p>Wrong Guesses:) <span id="wrongGuesses"></span></p>
+        <p id="message"></p>
+
+        <button onclick="restartGame()" class="restart-btn">Restart The Game :)</button>
+
+    </div>
+    <!-- footer -->
+    <footer style="margin-top: 345px;">
+        <p>&copy;  2025 My word guessing Game (Aryan singh Tomar). All rights reserved.</p>
+        <h4 style="font-size: 30px;">Thankyou :)</h4>
+    </footer>
+
+</body>
+</html>
